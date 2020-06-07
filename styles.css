@@ -1,0 +1,128 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+body{
+    width: 750px;
+    height: 750px; 
+    background: linear-gradient(to right,rgba(203, 212, 209, 0.467),#ccd8da);
+}
+#profile{
+    position: absolute;
+    width: 100px;
+    height: 160px;
+    left: 13em;
+    bottom: 34em;
+}
+.form{
+    background: linear-gradient(to right,#fff,#f1f5f4);
+    left: 30em;
+    position: absolute;
+    top: 8em;
+    width: 530px;
+    height: 560px;
+    text-transform: uppercase;
+    color: #333;
+    border: none;
+    padding: 40px;
+    box-shadow: 5px 5px 10px 10px rgba(181, 178, 201, 0.5),10px 14px 19px rgba(239, 239, 239, 0.5);
+}
+#welcome{
+    position: relative;
+    left: 4em;
+    bottom: 10px;    
+}
+.i{
+    position: relative;
+    top: 35px;
+    left: -.5em;
+    color: #999999;
+}
+#idp{
+    top: 10px;
+    position: relative;
+    font-size: 1em;
+    margin-right: 1em;
+    left: 1em;
+}
+#gender{
+    position: relative;
+    font-size: 1em;
+    top: 1.5em;
+}
+h5{
+    position: absolute;
+    left: 15px;
+}
+#name,#email,#password{
+    position: relative;
+    border: 1px solid;
+    left: 140px;
+    top: -20px;
+    margin: 3px;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+a{
+    float:right;
+    text-decoration: none;
+    color: #999;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+a:hover {
+    background-color: #38d393;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 1.1em; 
+
+}
+#radio{
+    position: relative;
+    left: 100px;
+}
+label{
+    position: relative;
+    left: 7em;
+    font-weight: 500;
+}
+#register{
+    background-color:#38d393 ;
+    width: 10em;
+    height: 2em;
+    left:7em;
+    position: relative;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to right,#32be8f,#38d39f,#32be8f);
+    cursor: pointer;
+    color: #fff;
+    font-family: 'poppins',sans-serif;
+    transition: .3s;
+}
+#register:hover{
+    background-position:right;
+}
+#register:active{
+    transform: scale(.95);
+}
+#account{
+    position: absolute;
+    left: 10em;
+    bottom: 15px;
+}
+#forgot{
+    position: relative;
+    font-size: 15px;
+    right: 100px;
+    bottom: 1em;
+}
